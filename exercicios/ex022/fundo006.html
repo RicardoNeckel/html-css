@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;*/
+
+            /* Shorthand - background
+            color > image > position > reapet > [size] > attachment
+             */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 3px solid darkblue;
@@ -29,6 +37,9 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, earum atque! Sed consequuntur quis, adipisci porro repellat provident. Placeat quos qui et voluptate recusandae culpa incidunt nisi officiis omnis dolor!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nulla quod reiciendis, asperiores eaque inventore dignissimos saepe magnam iste libero necessitatibus ipsa, quasi dolore fugiat autem temporibus atque assumenda dolor!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque, ea cumque pariatur beatae culpa, cupiditate totam quis est qui suscipit sint dolore eveniet, quos sed. Consequuntur temporibus vel repellendus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda iure a consequuntur quasi hic necessitatibus iusto laborum perspiciatis exercitationem aspernatur ab placeat quisquam, nam excepturi ipsam rem veniam! Et, repudiandae!</p>
     </main>
 </body>
 </html>
